@@ -1,0 +1,15 @@
+
+  .banner {
+    background-image: url(../img/burger.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 500px;
+    
+  }
+  .eaten {
+    list-style: none;
+    display: block;
+    background-color: rgb(197, 187, 187);
+    border: rgb(117, 110, 110);
+  }
