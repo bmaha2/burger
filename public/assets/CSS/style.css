@@ -7,9 +7,16 @@
     height: 500px;
     
   }
+  .create-form {
+    position: relative;
+
+  }
   .eaten {
     list-style: none;
     display: block;
     background-color: rgb(197, 187, 187);
     border: rgb(117, 110, 110);
+  }
+  .entry {
+    padding: 15px;
   }
