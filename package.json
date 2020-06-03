@@ -6,16 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bmaha2/burger.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bmaha2/burger/issues"
-  },
-  "homepage": "https://github.com/bmaha2/burger#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
