@@ -1,6 +1,12 @@
 ![readMeGenerator](https://img.shields.io/github/last-commit/bmaha2/burger)
 # burger
 
+## heroku link
+https://secure-crag-20728.herokuapp.com/
+
+## Link to Portfolio
+https://bmaha2.github.io/Portfolio/portfolio.html
+
 ## Description
 * ALLOWS user to create burger
 * WHEN burger is created, moves it to ready to eat section
@@ -19,6 +25,5 @@
 
 
 ![burger2](https://user-images.githubusercontent.com/58144039/83598545-d6d35f00-a51e-11ea-82ca-e69d2f1a253e.PNG)
-
 
 
