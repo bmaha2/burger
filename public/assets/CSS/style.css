@@ -16,7 +16,7 @@
 
   }
   .eaten {
-    list-style: none;
+    list-style-type: none;
     display: block;
     background-color: rgb(197, 187, 187);
     border: rgb(117, 110, 110);
