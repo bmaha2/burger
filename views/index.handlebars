@@ -2,38 +2,39 @@
   <div class="container banner"></div>
 </div>
 <div class="container">
-  <div class="row entry ">
+  <div class="row entry">
     <form class="create-form mx-auto">
       <div class="form-group">
-        <label for="burger_type">Burger Name:</label>
+        <label for="burger_type"><h3><strong>Burger Name:</strong></h3></label>
         <input type="text" id="burger_type" name="name">
       </div>
       <button class="btn btn-primary btn-md" type="submit">Make A Burger</button>
     </form>
   </div>
-  <div class="row">
-    <div class="col-sm">
+  <div class="row justify-content-center">
+    <div class="col-4">
       <h2>Ready to Eat</h2>
       <ul class="list-group">
         {{#each burgers}}
         {{#unless devoured}}
         <li class="list-group-item list-group-item-primary">
-        {{this.id}}.{{this.burger_name}}
-        <button type="button" class="btn btn-success btn-sm" id="eatbutton" data-id="{{this.id}}" data-newDevoured="{{devour}}">Devour!</button>
-        {{/unless}}
-        {{/each}}
+          {{this.id}}. {{this.burger_name}}
+          <button type="button" class="btn btn-success btn-sm" id="eatbutton" data-id="{{this.id}}"
+            data-newDevoured="{{devour}}">Devour!</button>
+          {{/unless}}
+          {{/each}}
         </li>
       </ul>
     </div>
-    <div class="col-sm">
+    <div class="col-4">
       <h2>Already Eaten</h2>
       <ul class="eaten">
         {{#each burgers}}
         <li>
-        {{#if devoured}}
-        {{this.id}}.{{this.burger_name}}
-        {{/if}}
-        {{/each}}
+          {{#if devoured}}
+          {{this.id}}. {{this.burger_name}}
+          {{/if}}
+          {{/each}}
         </li>
       </ul>
     </div>
